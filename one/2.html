@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function bake(degree) {
+            var message;
+            if(degree > 500) {
+                alert ( "我不是核反应堆");
+            }else if(degree < 100) {
+                alert ( "我不是冰箱");
+            }else {
+                alert ( "温度正好，正常工作");
+            }
+            alert ( "正常工作");
+        }
+        bake(550)
+        alert(  bake(550)  )
+    </script>
+</body>
+</html>
