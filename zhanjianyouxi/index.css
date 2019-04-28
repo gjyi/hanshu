@@ -8,7 +8,7 @@ div#board {
   margin: auto;
   background: url("board.jpg") no-repeat;
 }
-div#xiaoxi {
+div#messageArea {
   position: absolute;
   top: 0px;
   left: 0px;
